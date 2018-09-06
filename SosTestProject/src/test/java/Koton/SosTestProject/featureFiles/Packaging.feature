@@ -10,4 +10,4 @@ Scenario: Part Weight Entry
 	And I navigate Order Weight Info page
 	And I enter weight unit type gram 
 	And I click submit button 
-	Then The part weight should successfully be submitted via the order weight info form1
+	Then The part weight should successfully be submitted via the order weight info form
