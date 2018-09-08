@@ -29,7 +29,7 @@ public class DriverFactory {
 		try {
 			
 			Properties p = new Properties();
-			FileInputStream fi = new FileInputStream("/Users/semracengiz/eclipse-workspace2/SosTestProject/src/test/java/Koton/SosTestProject/config.properties");
+			FileInputStream fi = new FileInputStream(System.getProperty("user.dir") + "/src/test/java/Koton/SosTestProject/config.properties");
 			p.load(fi);
 			String browserName = p.getProperty("browser");
 
