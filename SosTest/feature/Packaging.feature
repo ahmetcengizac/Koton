@@ -2,7 +2,7 @@ Feature: Testing Packaging Process on SosTest Website
 
 Scenario: Part Weight Entry
 	Given I login sostestKoton website with correct supplier user 
-    | efeg | test1235 |
+    | efeg | test1234 |
 	When I click OrderManagement module in the OrderManagement menu
 	# And I navigate OrderManagement page
 	# And I select a job order 
