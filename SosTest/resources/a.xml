@@ -1,0 +1,60 @@
+<th align="center" rowspan="1" colspan="1">&nbsp;
+</th>
+<th align="center" rowspan="1" colspan="1">&nbsp;
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:63px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:96px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:100px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:119px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:106px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:129px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:88px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:77px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:87px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:76px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:69px;" placeholder="">
+</th>
+<td nowrap="" class="dt-filter" rowspan="1" colspan="1">
+	<input class="idblack" type="text" name="requiredDateStr"
+		size="12" onclick="calShow(this,'fOrderManagement.requiredDateStr')">
+</td>
+<td nowrap="" class="dt-filter" rowspan="1" colspan="1">
+	<input class="idblack" type="text" name="cutApprovalSendDate"
+		size="12"
+		onclick="calShow(this,'fOrderManagement.cutApprovalSendDate')">
+</td>
+<td nowrap="" class="dt-filter" rowspan="1" colspan="1">
+	<input class="idblack" type="text" name="expectedCutApprovalDate"
+		size="12"
+		onclick="calShow(this,'fOrderManagement.expectedCutApprovalDate')">
+</td>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:110px;" placeholder="">
+</th>
+<th rowspan="1" colspan="1">
+	<input type="text" style="width:99px;" placeholder="">
+</th>
+<th align="center" rowspan="1" colspan="1">
+	<input type="text" style="width:39px;" placeholder="">
+</th>
