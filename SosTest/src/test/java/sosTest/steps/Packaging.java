@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -97,7 +98,7 @@ public class Packaging extends DriverFactory {
 
 		Integer i = 0;
 		for (List<String> weight : data) {
-			driver.findElement(By.id("0_" + weight.get(0) + "_" + i.toString())).sendKeys(weight.get(1));
+			driver.findElement(By.id("0_" + weight.get(0) + "_" + i.toString())).sendKeys(Keys.chord(Keys.CONTROL, "a") + weight.get(1));
 			i++;
 		}
 		Thread.sleep(3000);
